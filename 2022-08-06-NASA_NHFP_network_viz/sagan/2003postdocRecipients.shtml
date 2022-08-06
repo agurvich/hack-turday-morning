@@ -1,0 +1,486 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      NExScI
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' media='screen' rel='stylesheet' type='text/css'>
+    <link href="../stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="../javascripts/application.js" type="text/javascript"></script>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-96x96.png"   sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-32x32.png"   sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-16x16.png"   sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-128.png"     sizes="128x128" />
+    <meta name="msapplication-TileImage"         content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo"   content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo"   content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+  </head>
+  <body>
+    <div class='header'>
+      <div class='orbit_flare'></div>
+      <div class='ipac_bar'>
+        <div class='container'>
+          <div class='row'>
+            <div class='span12'>
+              <a href="https://www.ipac.caltech.edu"><img src="../images/ipac_logo.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='container planet_container'>
+        <div class='planet'></div>
+        <div class='row'>
+          <div class='span8'>
+            <div class='mission_title'>
+              <h1>
+                <a href="/">NExScI</a>
+              </h1>
+            </div>
+            <div class='mission_subtitle'>
+              <h2>
+                <a href="/">NASA Exoplanet Science Institute</a>
+              </h2>
+            </div>
+          </div>
+          <div class='span4'>
+            <div class='right'>
+              <div class='for_public'>
+                <a title="NASA's Exoplanet Exploration Program" alt="NASA's Exoplanet Exploration Program" href="https://exoplanets.nasa.gov/"><img src="../images/exoplanet_exploration.png" /></a>
+              </div>
+              <div class='social_media'>
+                                <a href="https://www.facebook.com/NExScI"><div class='icon_background'>
+                  <i class='exoplanet-icon-facebook'></i>
+                </div>
+                </a>
+
+                                <a href="https://twitter.com/NExScI_IPAC"><div class='icon_background'>
+                  <i class='exoplanet-icon-twitter'></i>
+                </div>
+                </a>
+
+                                <a href="https://www.youtube.com/channel/UCytsRiMvdj5VTZWfj6dBadQ"><div class='icon_background'>
+                  <i class='exoplanet-icon-youtube'></i>
+                </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='mission_bar_wrapper'>
+        <div class='container'>
+          <div class='row'>
+            <div class='span12'>
+              <div class='mission_bar'>
+                <h1>
+                  <div class='big_cap'>Serving</div> <div class='big_cap lowercase'>the</div> <div class='big_cap'>Exoplanet</div> <div class='big_cap'>Science</div> <div class='big_cap'>Community</div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='navigation_wrapper'>
+        <div class='container'>
+          <div class='row'>
+            <div class='span12'>
+              <div class='navigation'>
+                                <a data-target="about_subnav" class="testing" href="/about"><div class='big_cap'>About</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="conferences_subnav" class="" href="/conferences"><div class='big_cap'>Conferences</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="sagan_subnav" class="" href="/sagan"><div class='big_cap'>Sagan</div> <div class='big_cap'>Program</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="keck_subnav" class="" href="/tools/obs_res.shtml"><div class='big_cap'>Observing</div> <div class='big_cap'>Resources</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="tools_subnav" class="" href="/tools"><div class='big_cap'>Data</div> <div class='big_cap uppercase'>&</div> <div class='big_cap'>Tools</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a href="/about/videos.shtml"><div class='big_cap'>Videos</div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='sub_navigation_wrapper'>
+        <div class='container'>
+          <div class='sub_navigation'>
+            <div class='sub_nav_pane' id='about_subnav'>
+  <div class='row'>
+    <div class='span3'>
+            <a href="/about/"><h5>
+        Welcome/Contact
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a target="_blank" href="/about/videos.shtml"><h5>
+        Videos About NExScI Services and Data Archives
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a href="https://exoplanets.nasa.gov/exep/"><h5>
+        Exoplanet Exploration Program
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a href="/about/scistaff.shtml"><h5>
+        NExScI Science Staff
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a href="/about/people.shtml"><h5>
+        NExScI Personnel
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='conferences_subnav'>
+  <div class='row'>
+    <div class='span2'>
+            <a href="/workshop/2022/"><h5>
+        2022 Sagan Summer Workshop
+      </h5>
+      <p>
+        July 25-29, 2022
+      </p>
+      </a>
+
+    </div>
+    <div class='span2'>
+            <a href="/workshop/2021/"><h5>
+        2021 Sagan Summer Workshop
+      </h5>
+      <p>
+        July 19-23, 2021
+      </p>
+      </a>
+
+    </div>
+    <div class='span2'>
+            <a href="/conferences/exodem/"><h5>
+        Exoplanet Demographics Conference
+      </h5>
+      <p>
+        November 9-13, 2020
+      </p>
+      </a>
+
+    </div>
+    <div class='span2'>
+            <a href="/conferences/"><h5>
+        Other Events
+      </h5>
+      <p>
+        NExScI supported past and current workshops, conferences, and symposia
+      </p>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='sagan_subnav'>
+  <div class='row'>
+    <div class='span4'>
+            <a href="/sagan/fellowship.shtml"><h5>
+        Postdoctoral Fellowships
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a href="/conferences/"><h5>
+        Workshops and Symposia
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a href="https://www.youtube.com/c/SaganSummerWorkshop/playlists"><h5>
+        Sagan Summer Workshop YouTube Channel
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='keck_subnav'>
+  <div class='row'>
+    <div class='span4'>
+            <a href="/missions/KSA/"><h5>
+        NASA Keck Time
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://www2.keck.hawaii.edu/realpublic/observing/instavail.html"><h5>
+        Keck Instrumentation
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="/missions/Minerva/"><h5>
+        MINERVA-Australis
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="/tools/obs_res.shtml"><h5>
+        NN-Explore
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='tools_subnav'>
+  <div class='row'>
+    <div class='span4'>
+            <a target="_blank" href="https://exoplanetarchive.ipac.caltech.edu/"><h5>
+        NASA Exoplanet Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://koa.ipac.caltech.edu"><h5>
+        Keck Observatory Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://exofop.ipac.caltech.edu/"><h5>
+        Exoplanet Follow-up Observing Program (ExoFOP)
+      </h5>
+      </a>
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class='span4'>
+            <a target="_blank" href="https://neid.ipac.caltech.edu/search.php"><h5>
+        NEID Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://lbti.ipac.caltech.edu"><h5>
+        LBTI Data Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a href="/tools/prv_index.shtml"><h5>
+        Keck HIRES Radial Velocity Pipeline
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row postdocs'>
+        <div class='span12'>
+          <div class='panel_border'>
+            <div class='panel'>
+              <h2 class='center'>
+                Michelson Postdoctoral Fellowship Recipients
+              </h2>
+              <h4 class='center'>
+                2003 Postdoctoral Fellows
+              </h4>
+              <p class='center'></p>
+            </div>
+          </div>
+        </div>
+        <div class='span12'>
+          <div class='panel_border'>
+            <div class='panel'>
+              <h5>
+                Jason Aufdenberg
+              </h5>
+              <h6>
+                National Optical Astronomical Observatories
+              </h6>
+              <p>
+                <strong>
+                  21st Century Interferometry of Hot Star Photosphers
+                </strong>
+              </p>
+              <p>
+                Recently commissioned interferometers on the earth (e.g. CHARA, VLTI, NPOI, Keck) and those planned for space (SIM, TPF) will be key tools for astrophysicists through the next decade and beyond. Recent technological developments make possible now, for the first time in 30 years, the direct measurement of stellar diameters and limb-intensity profiles of stars hotter than the sun. Using the Center for High Resolution Astronomy (CHARA) interferometric array, such measurements will be made and, by combining both experimental and theoretical expertise, the uncertainties in the direct effective temperatures of 33 stars will be significantly reduced. These data are crucial for testing state-of-the-art models of both stellar atmospheres and stellar interiors, and thereby our understanding of stellar and galactic evolution. The first limb-intensity profile measurements of 8 early-type giants and supergiants will double the number of stars for which limb-darkening has been directly measured and provide rare direct tests of model stellar atmosphere intensity predictions. Furthermore, independent mass-loss rates for B and A-type supergiants, critical for the calibration of these stars as independent distance indicators, will be determined via interferometry for the first time by comparing measurements with the predictions of expanding model atmospheres.
+              </p>
+              <p>
+                <a href="https://faculty.erau.edu/Jason.Aufdenberg">Jason</a>
+                is currently an Associate Professor at Embry-Riddle Aeronautical University.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <h5>
+                Pascal Borde
+              </h5>
+              <h6>
+                Harvard-Smithsonian Center for Astrophysics
+              </h6>
+              <p>
+                <strong>
+                  Theoretical and Experimental Studies on Visible Ligh Cornoagraphs for Terrestrial Planet Detection and Characterization
+                </strong>
+              </p>
+              <p>
+                In the context of NASA's Terrestrial Planet Finder, the Harvard-Smithsonian Center for Astrophysics, Princeton University, and Ball Aerospace have undertaken a program to demonstrate high-precision coronagraphs. I propose to join their efforts for a combined theoretical and experimental work to deepen our understanding and ability to design powerful planet-finding coronagraphs. On the theoretical side, I will optimize the shape and graded function of Lyot stops in image-plane masks, model the electromagnetic interaction between the light and the material constitutive of notch filter masks, and explore the possibility of combining shaped pupil with image-plane masks to further increase the instrumental dynamic range. On the experimental side, I will compare the performance of different corona graphic designs, and work on the detection and correction of amplitude and phase errors using a deformable mirror. In addition, I will develop simple color and low-resolution diagnostics for the characterization of planets detected by visible-light coronagraphs.
+              </p>
+              <p>
+                Pascal is currently a Professor at the University Bordeaux.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <h5>
+                Andrew Digby
+              </h5>
+              <h6>
+                American Museum of Natural History
+              </h6>
+              <p>
+                <strong>
+                  Imaging Exoplanets, Brown Dwarfs and Disks with Precision Coronography
+                </strong>
+              </p>
+              <p>
+                With the existence of "exoplanets" only indirectly established, little is known about their formation, evolution, and physical characteristics. Knowledge of related circumstellars debris disks is similarly uncertain. Direct imaging of exoplanets is given the highest priority in the TPF Architecture Review. The work outlined in this proposal represents some of the initial steps required before TPF's goal of imaging Earth analogs is reached. In particular, the coronagraph being constructed at AMNH for the US Air Force's Advanced Electro-Optical System, a 941-actuator adaptive optics instrument on a 3.6-m telescope, will achieve unprecedented levels of contrast, enabling the first direct probe of companions and disks on solar-system scales and in the sub-brown dwarf mass range. I will make major contributions to the instrument testing, integration, observations and science of the AEOS Coronagraph ("The Lyot Project"), yielding significant advances in exoplanet, brown dwarf, and disk research, and in technologies such as corona graphic occulting mask design, dual-stage adaptive optics and active alignment systems that are crucial to future planet-finding missions. The results of this work will be incorporated into museum exhibits and space shows seen by over 3 million visitors each year.
+              </p>
+              <p>
+                <a href="http://www.andrewdigby.com/">Andrew</a> is currently a biologist with the New Zealand Department of Conservation.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <h5>
+                Ettore Pedretti
+              </h5>
+              <h6>
+                University of Michigan
+              </h6>
+              <p>
+                <strong>
+                  The Study of Young Stellar Objects with Infrared, Long Baseline Interferometry
+                </strong>
+              </p>
+              <p>
+                The Center for High Angular Resolution Astronomy (CHARA) interferometric array is a state-of-the-art optical/infrared interferometer comprising of six one-meter telescopes, with baselines spanning hundreds of meters on a Y-shaped array. In collaboration with Georgia State University, the University of Michigan is developing an infrared imaging beam combiner capable of exploiting the full potential of the multiple baselines of the CHARA array. I propose to build a very-low noise infrared camera for this new combiner, using the experience I have gained at the Infrared Optical Telescope Array (IOTA), currently the lowest-noise infrared camera at an interferometric facility. This camera will use the Rockwell PICNIC detector and fast, very-low noise readout electronics based on Complex Programmable Logic Devices (CPLDs). It will be used in connection with a new fiber-fed image-plane beam combiner and a low-resolution spectrograph in development at the University of Michigan. The camera will deliver science data as dispersed fringes, which will be useful the keep the array in coherence. I will work with the IOTA and CHARA groups to obtain the first high-resolution images of a Young Stellar Object (YSO) which are beyond the angular resolution of the current ten-meter-class telescopes. This advance in instrumentation will be immediately transferable to new-generation interferometers, and will greatly enhance the understanding of the star and planet formation process.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <h5>
+                Remi Soummer
+              </h5>
+              <h6>
+                Space Telescope Science Institute
+              </h6>
+              <p>
+                <strong>
+                  New Generation Coronagraphs for Ground-based Istruments with ExAO and Space Project TPF
+                </strong>
+              </p>
+              <p>
+                I will focus on a theoretical, experimental, and observational study of high-contrast coronagraphic techniques aimed at the direct detection and characterization of exoplanets and the study of faint structure around nearby stars. I will implement a test-bed version of the apodized-pupil Lyot coronagraph, for which I have already developed a complete theory demonstrating that its rejection is dramatically improved by a factor of up to 10^5, for an extended search space. I will help commission the AEOS near-IR coronagraph being fabricated at AMNH. This instrument will deliver H-band on-sky Strehl ratios of about 90%, and is available as an in-lab optical bandpass testbed. I will use it to verify my simulations, as a step toward understanding space coronagraphy. I will extend my theoretical investigations of coronagraphy to explore my apodized Lyot coronagraphic design, and also continue addressing the chromatic problems, both in image scale as well as phase control, of phase-mask coronagraphs (I have already shown that a 20% bandwidth Roddier-style phase mask is possible without compromising dynamic range). I will participate in the NSF Center for Adaptive Optics Extreme AO coronagraphic effort aimed at an existing 8-10m telescopes, addressing the problem of atmospheric speckle noise.
+              </p>
+              <p>
+                Remi is currently an astronomer at the Space Telescope Science Institute.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='footer_wrapper'>
+      <div class='container'>
+        <div class='row'>
+          <div class='footer'>
+            <div class='span4'>
+              <ul class='footer_links'>
+                <li>
+                  <a href="/about/">Contact</a>
+                </li>
+                <li>
+                  <a href="https://www.ipac.caltech.edu/page/privacy">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+            <div class='span8'>
+              <div class='affiliates right'>
+                <a alt="NASA Exoplanet Science Institute" title="NASA Exoplanet Science Institute" href="https://nexsci.caltech.edu/"><img src="../images/icon_nexsci.png" /></a>
+                <a alt="Infrared Processing and Analysis Center" title="Infrared Processing and Analysis Center" href="https://www.ipac.caltech.edu"><img src="../images/icon_ipac.png" /></a>
+                <a alt="California Institute of Technology" title="California Institute of Technology" href="https://www.caltech.edu"><img src="../images/icon_caltech.png" /></a>
+                <a alt="Jet Propulsion Laboratory" title="Jet Propulsion Laboratory" href="https://www.jpl.nasa.gov"><img src="../images/icon_jpl.png" /></a>
+                <a alt="National Aeronautics and Space Administration" title="National Aeronautics and Space Administration" href="https://www.nasa.gov"><img src="../images/icon_nasa.png" /></a>
+              </div>
+            </div>
+            <div class='span10 offset1 center disclaimer'>
+              <p>
+                The NASA Exoplanet Science Institute is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
