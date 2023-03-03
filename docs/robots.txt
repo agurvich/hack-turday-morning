@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /saturday-morning-hacks/sitemap.xml

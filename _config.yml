@@ -2,7 +2,7 @@ title: Alex Gurvich - data scientist
 description: > # this means to ignore newlines until "baseurl:"
   Part homepage, part blog, all data science and visualization.
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/saturday-morning-hacks" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 destination: docs/
