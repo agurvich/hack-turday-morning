@@ -1,0 +1,38 @@
+title: Alex Gurvich - data scientist
+description: > # this means to ignore newlines until "baseurl:"
+  Part homepage, part blog, all data science and visualization.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+destination: docs/
+
+# Author Settings
+author: Alex Gurvich # add your name
+author-img: alex-gurvich.png # add your photo
+about-author: >
+  Former astrophysicist turned data scientist. 
+  I like to tell stories and visualize data. 
+social-twitter: alexbgurvich # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: agurvich # add your Github handle
+social-linkedin: alex-b-gurvich # add your Linkedin handle
+social-email: alex.b.gurvich@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

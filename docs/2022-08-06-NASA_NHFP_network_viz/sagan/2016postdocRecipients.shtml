@@ -1,0 +1,561 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      NExScI
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' media='screen' rel='stylesheet' type='text/css'>
+    <link href="../stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="../javascripts/application.js" type="text/javascript"></script>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57"   href="/images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-96x96.png"   sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-32x32.png"   sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-16x16.png"   sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/icons/favicon-128.png"     sizes="128x128" />
+    <meta name="msapplication-TileImage"         content="/images/icons/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo"   content="/images/icons/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/images/icons/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo"   content="/images/icons/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/images/icons/mstile-310x310.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+  </head>
+  <body>
+    <div class='header'>
+      <div class='orbit_flare'></div>
+      <div class='ipac_bar'>
+        <div class='container'>
+          <div class='row'>
+            <div class='span12'>
+              <a href="https://www.ipac.caltech.edu"><img src="../images/ipac_logo.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='container planet_container'>
+        <div class='planet'></div>
+        <div class='row'>
+          <div class='span8'>
+            <div class='mission_title'>
+              <h1>
+                <a href="/">NExScI</a>
+              </h1>
+            </div>
+            <div class='mission_subtitle'>
+              <h2>
+                <a href="/">NASA Exoplanet Science Institute</a>
+              </h2>
+            </div>
+          </div>
+          <div class='span4'>
+            <div class='right'>
+              <div class='for_public'>
+                <a title="NASA's Exoplanet Exploration Program" alt="NASA's Exoplanet Exploration Program" href="https://exoplanets.nasa.gov/"><img src="../images/exoplanet_exploration.png" /></a>
+              </div>
+              <div class='social_media'>
+                                <a href="https://www.facebook.com/NExScI"><div class='icon_background'>
+                  <i class='exoplanet-icon-facebook'></i>
+                </div>
+                </a>
+
+                                <a href="https://twitter.com/NExScI_IPAC"><div class='icon_background'>
+                  <i class='exoplanet-icon-twitter'></i>
+                </div>
+                </a>
+
+                                <a href="https://www.youtube.com/channel/UCytsRiMvdj5VTZWfj6dBadQ"><div class='icon_background'>
+                  <i class='exoplanet-icon-youtube'></i>
+                </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='mission_bar_wrapper'>
+        <div class='container'>
+          <div class='row'>
+            <div class='span12'>
+              <div class='mission_bar'>
+                <h1>
+                  <div class='big_cap'>Serving</div> <div class='big_cap lowercase'>the</div> <div class='big_cap'>Exoplanet</div> <div class='big_cap'>Science</div> <div class='big_cap'>Community</div>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='navigation_wrapper'>
+        <div class='container'>
+          <div class='row'>
+            <div class='span12'>
+              <div class='navigation'>
+                                <a data-target="about_subnav" class="testing" href="/about"><div class='big_cap'>About</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="conferences_subnav" class="" href="/conferences"><div class='big_cap'>Conferences</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="sagan_subnav" class="" href="/sagan"><div class='big_cap'>Sagan</div> <div class='big_cap'>Program</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="keck_subnav" class="" href="/tools/obs_res.shtml"><div class='big_cap'>Observing</div> <div class='big_cap'>Resources</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a data-target="tools_subnav" class="" href="/tools"><div class='big_cap'>Data</div> <div class='big_cap uppercase'>&</div> <div class='big_cap'>Tools</div>
+                </a>
+
+                <span>
+                  |
+                </span>
+                                <a href="/about/videos.shtml"><div class='big_cap'>Videos</div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='sub_navigation_wrapper'>
+        <div class='container'>
+          <div class='sub_navigation'>
+            <div class='sub_nav_pane' id='about_subnav'>
+  <div class='row'>
+    <div class='span3'>
+            <a href="/about/"><h5>
+        Welcome/Contact
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a target="_blank" href="/about/videos.shtml"><h5>
+        Videos About NExScI Services and Data Archives
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a href="https://exoplanets.nasa.gov/exep/"><h5>
+        Exoplanet Exploration Program
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a href="/about/scistaff.shtml"><h5>
+        NExScI Science Staff
+      </h5>
+      </a>
+
+    </div>
+    <div class='span3'>
+            <a href="/about/people.shtml"><h5>
+        NExScI Personnel
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='conferences_subnav'>
+  <div class='row'>
+    <div class='span2'>
+            <a href="/workshop/2022/"><h5>
+        2022 Sagan Summer Workshop
+      </h5>
+      <p>
+        July 25-29, 2022
+      </p>
+      </a>
+
+    </div>
+    <div class='span2'>
+            <a href="/workshop/2021/"><h5>
+        2021 Sagan Summer Workshop
+      </h5>
+      <p>
+        July 19-23, 2021
+      </p>
+      </a>
+
+    </div>
+    <div class='span2'>
+            <a href="/conferences/exodem/"><h5>
+        Exoplanet Demographics Conference
+      </h5>
+      <p>
+        November 9-13, 2020
+      </p>
+      </a>
+
+    </div>
+    <div class='span2'>
+            <a href="/conferences/"><h5>
+        Other Events
+      </h5>
+      <p>
+        NExScI supported past and current workshops, conferences, and symposia
+      </p>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='sagan_subnav'>
+  <div class='row'>
+    <div class='span4'>
+            <a href="/sagan/fellowship.shtml"><h5>
+        Postdoctoral Fellowships
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a href="/conferences/"><h5>
+        Workshops and Symposia
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a href="https://www.youtube.com/c/SaganSummerWorkshop/playlists"><h5>
+        Sagan Summer Workshop YouTube Channel
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='keck_subnav'>
+  <div class='row'>
+    <div class='span4'>
+            <a href="/missions/KSA/"><h5>
+        NASA Keck Time
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://www2.keck.hawaii.edu/realpublic/observing/instavail.html"><h5>
+        Keck Instrumentation
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="/missions/Minerva/"><h5>
+        MINERVA-Australis
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="/tools/obs_res.shtml"><h5>
+        NN-Explore
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+<div class='sub_nav_pane' id='tools_subnav'>
+  <div class='row'>
+    <div class='span4'>
+            <a target="_blank" href="https://exoplanetarchive.ipac.caltech.edu/"><h5>
+        NASA Exoplanet Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://koa.ipac.caltech.edu"><h5>
+        Keck Observatory Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://exofop.ipac.caltech.edu/"><h5>
+        Exoplanet Follow-up Observing Program (ExoFOP)
+      </h5>
+      </a>
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class='span4'>
+            <a target="_blank" href="https://neid.ipac.caltech.edu/search.php"><h5>
+        NEID Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a target="_blank" href="https://lbti.ipac.caltech.edu"><h5>
+        LBTI Data Archive
+      </h5>
+      </a>
+
+    </div>
+    <div class='span4'>
+            <a href="/tools/prv_index.shtml"><h5>
+        Keck HIRES Radial Velocity Pipeline
+      </h5>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container'>
+      <div class='row postdocs'>
+        <div class='span12'>
+          <div class='panel_border'>
+            <div class='panel'>
+              <h2 class='center'>
+                Sagan Postdoctoral Fellowship Recipients
+              </h2>
+              <h4 class='center'>
+                2016 Postdoctoral Fellows
+              </h4>
+              <p class='center'>
+                <em>
+                  for additional information on each Fellow's project, please click on the project title
+                </em>
+              </p>
+              <p class='center'>
+                <em>
+                  <a target="_blank" href="http://www.nasa.gov/feature/nasa-announces-astronomy-and-astrophysics-fellows-for-2016">NASA press release announcing the 2016 Astrophysics Fellowship Awardees</a>
+                </em>
+              </p>
+              <p class='center'>
+                <em>
+                  <a target="_blank" href="http://www.jpl.nasa.gov/news/news.php?feature=6181">JPL press release announcing the 2016 Sagan Fellowship Awardees</a>
+                </em>
+              </p>
+              <p class='center'>
+                <em>
+                  <a target="_blank" href="/sagan/fellowship.shtml">more information on the Sagan Fellowship program</a>
+                </em>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class='span12'>
+          <div class='panel_border'>
+            <div class='panel'>
+              <img class="profile left" src="2016postdocs/follette_photo.jpg" />
+              <img class="science left" src="2016postdocs/KBF_Sagan_graphic.png" />
+              <h5>
+                Katherine Follette
+              </h5>
+              <h6>
+                Stanford University
+              </h6>
+              <p>
+                <strong>
+                  <a target="_blank" href="/sagan/2016postdocs/follette_slides.pdf">Finding and Characterizing Forming Protoplanets with Next Generation Adaptive Optics Systems</a>
+                </strong>
+              </p>
+              <p>
+                I was born and raised in Minnesota, and received my BA in Physics and Japanese Studies from Middlebury College in 2004. I entered an Astronomy PhD program at the University of Arizona in 2008, and finished in 2014.
+              </p>
+              <p>
+                I've always been interested in space, and dreamed of being an astronaut as a kid, but I didn't have any intention of pursuing a science career until I took an introductory astronomy course as a freshman in college. My interest in exoplanets stems from its focus on one of the fundamental human questions - are we alone? It's pretty amazing that I'm now making a career studying exoplanets when they were pure science fiction until I was in middle school.
+              </p>
+              <p>
+                My Sagan project focuses on finding and characterizing planets still in the process of forming around young stars. To do this, I image these stars simultaneously in Hydrogen-alpha light and ordinary visible light with the Magellan Adaptive Optics System. Extra H-alpha emission from any object surrounding the star indicates that ultra hot hydrogen gas is falling onto it (a process called accretion). If I see the object glowing
+                <b>
+                  only
+                </b>
+                in H-alpha, with no underlying emission at ordinary visible wavelengths, it indicates that the object is very low mass - a forming protoplanet!
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <img class="profile left" src="2016postdocs/fung_photo.png" />
+              <img class="science left" src="2016postdocs/fung_graphic.png" />
+              <h5>
+                Jeffrey Fung
+              </h5>
+              <h6>
+                University of California, Berkeley
+              </h6>
+              <p>
+                <strong>
+                  <a target="_blank" href="/sagan/2016postdocs/fung_slides.pdf">3D Disk-Planet Interaction: Observable Disk Features and Dynamical Planet Migration</a>
+                </strong>
+              </p>
+              <p>
+                I was born in Hong Kong. At an early age, my family moved to Canada, where I grew up in the beautiful city of Vancouver. I received my PhD from the University of Toronto in 2015. After the completion of my thesis, I became a postdoctoral fellow at the University of California, Berkeley. I am currently 29 years old.
+              </p>
+              <p>
+                In elementary school, I remember coming into contact with various media relating to astronomy, including books, radio and television programs. At that time, what struck me most was the enormous contrast between our physical insignificance in face of the vastness of the universe, and our mental aptitude to study and understand how the universe works even in its farthest corners. I remember wishing to become a part of that exploration. Turns out some wishes do come true.
+              </p>
+              <p>
+                As a Sagan Fellow, I plan to study the formation of planets by investigating how newly formed planets interact with their natal circumstellar disks. I will utilize 3D numerical simulations to look deeply into the dynamics around planets, revealing how young planets grow, migrate, and carve their natal disks. This will not only help us learn about planet formation, but also aid the discovery of exoplanets by creating links between observable disk features and their possible planetary origins.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <img class="profile left" src="2016postdocs/halverson_photo.png" />
+              <img class="science left" src="2016postdocs/halverson_graphic.png" />
+              <h5>
+                Samuel Halverson
+              </h5>
+              <h6>
+                University of Pennsylvania
+              </h6>
+              <p>
+                <strong>
+                  <a target="_blank" href="/sagan/2016postdocs/halverson_slides.pdf">Enabling Technologies for Extreme Precision Radial Velocity Measurements</a>
+                </strong>
+              </p>
+              <p>
+                I grew up in San Francisco, CA and received my bachelor's degree in Physics and Astronomy from UC Berkeley in 2009. In 2010 I moved to the Astronomy department at Penn State University for my graduate work, where I expect to earn my PhD in May 2016. I am currently 25 years old.
+              </p>
+              <p>
+                Ever since my first physics course, I've always been interested in the blending of novel instrumentation with cutting edge scientific discoveries. My very first undergraduate research project sparked my interest in exoplanet discovery by combining unique interferometric techniques with classical Doppler spectroscopy to search for terrestrial-mass planets orbiting nearby stars. The plethora of planetary systems discovered by Kepler further drove my interest in developing high precision astronomical instrumentation to search for the ever-elusive 'Earth-twins'.
+              </p>
+              <p>
+                As a Sagan Fellow, I plan to develop new photonic technologies to improve the stability and measurement precision of next generation planet-hunting spectrometers in both the optical and near-infrared. These technologies will be essential components of future radial velocity instruments that aim to detect terrestrial-mass planets orbiting in the habitable-zones of a wide variety of nearby stars. Beyond independent planet discoveries, these instruments will play vital roles in confirming and characterizing planets discovered by future transit missions such as TESS and K2.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <img class="profile left" src="2016postdocs/masuda_photo.jpeg" />
+              <img class="science left" src="2016postdocs/masuda_graphic.png" />
+              <h5>
+                Kento Masuda
+              </h5>
+              <h6>
+                Massachusetts Institute of Technology
+              </h6>
+              <p>
+                <strong>
+                  <a target="_blank" href="/sagan/2016postdocs/masuda_slides.pdf">Toward a Comprehensive View of Planet Formation and Evolution: Probing the Role of Orbital Migration in Explanatory Systems from their Observed Architecture</a>
+                </strong>
+              </p>
+              <p>
+                I was born in Tokyo, Japan 26 years ago and have spent most of my life there. I studied physics and astronomy at the University Tokyo, where I expect to receive my D.Sc. from the Department of Physics in July 2016.
+              </p>
+              <p>
+                While I have been interested in physics of the universe in a broad sense since I was a high-school student, I decided to study exoplanets after starting my Master project at graduate school, where I was impressed by the quality and potential of the Kepler photometric data. I particularly find it interesting that the data always bring something new and unexpected when we take a fresh look at them.
+              </p>
+              <p>
+                As a Sagan Fellow, I plan to study the dynamical history of diverse explanatory systems, especially focusing on the role of orbital migration in sculpting observed systems. I will attack this problem by obtaining in-depth information on the system architecture from multiple viewpoints, including the misalignment between planetary orbits and host-star rotation, physical and orbital properties of compact multi-planetary systems, and architecture of hierarchical triple systems. The essential tools for my project will be the ample space-based photometry data as obtained by Kepler and TESS, complimented by the traditional ground-based spectroscopy.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <img class="profile left" src="2016postdocs/montet_photo.jpg" />
+              <img class="science left" src="2016postdocs/montet_graphic.jpg" />
+              <h5>
+                Benjamin Montet
+              </h5>
+              <h6>
+                University of Chicago
+              </h6>
+              <p>
+                <strong>
+                  <a target="_blank" href="/sagan/2016postdocs/montet_slides.pdf">Exploring the Diversity of Planetary Systems with K2</a>
+                </strong>
+              </p>
+              <p>
+                I grew up near Chicago, Illinois and received my bachelor's degree from the University of Illinois at Urbana-Champaign in 2011. I then moved to Pasadena, California, where I will receive my Ph.D. from the California Institute of Technology in 2016. My doctoral research was focused on understanding the physical properties of low mass stars and their companions, as well as dynamically interacting planetary systems. I am 27 years old.
+              </p>
+              <p>
+                I became interested in exoplanets when I was first exposed to Kepler data as a first-year graduate student. Having such a rich, publicly available dataset open for anyone to explore seemed to offer up so many opportunities, and playing with the data I was immediately hooked. Hopefully the data coming from K2 and TESS will be inspiring for the next generation of exoplanetary astronomers to do the same!
+              </p>
+              <p>
+                I will explore how the planetary systems are different in differing parts of the galaxy using data from the K2 mission. Kepler provided us with the first estimates of the occurrence rate of rocky planets in the galaxy, but only looked at a very small slice of the Milky Way. With K2, we have the opportunity to compare planetary systems in a variety of galactic environments around stars of different ages and metallicities. This work will pave the way for the upcoming TESS mission, providing key estimates of the planet yield expected during each campaign of that mission.
+              </p>
+              <div class='clearfix'></div>
+              <br>
+              <br>
+              <img class="profile left" src="2016postdocs/morley_photo.jpg" />
+              <img class="science left" src="2016postdocs/morley_graphic.jpg" />
+              <h5>
+                Caroline Morley
+              </h5>
+              <h6>
+                Harvard University
+              </h6>
+              <p>
+                <strong>
+                  <a target="_blank" href="/sagan/2016postdocs/morley_slides.pdf">New Tools for Understanding Exoplanet Atmospheres from Spectroscopy</a>
+                </strong>
+              </p>
+              <p>
+                I was born in England and grew up in the small town of Amherst, New Hampshire. I received my bachelor's degrees in Physics and Earth, Atmosphere, and Planetary Sciences from MIT in 2010. I am now 27 years old and will receive my PhD in Astronomy and Astrophysics from the University of California Santa Cruz in June 2016.
+              </p>
+              <p>
+                As a young child I was fascinated by solar system exploration; I wanted to be an astronaut and become the first girl to walk on the moon! I enjoyed math and physics in high school and started university unsure of my future career. During my time at MIT, I learned about observations of exoplanets and found myself asking questions: what are these planets like? Are they similar to the solar system planets? Once I learned that people were studying exactly these questions, I made the decision to go to graduate school and probe these questions myself.
+              </p>
+              <p>
+                In my PhD research, I have studied the role of clouds and hazes in the atmospheres of a variety of objects, from exoplanets smaller than Neptune to brown dwarfs more massive than Jupiter. As a Sagan Fellow, I will continue to study diverse atmospheres. We have three growing sets of objects for which we can observe spectra, probing different environments and ages. Brown dwarfs, the massive cousins of exoplanets, provide a testbed for understanding atmospheric physics and chemistry. Directly-imaged planets represent youthful versions of our own solar system, with gas giants on distant orbits. Transiting planets on shorter orbits are evolved planetary systems sculpted by processes like mass loss and photochemistry. I will use new techniques to study their compositions, clouds, and other properties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='footer_wrapper'>
+      <div class='container'>
+        <div class='row'>
+          <div class='footer'>
+            <div class='span4'>
+              <ul class='footer_links'>
+                <li>
+                  <a href="/about/">Contact</a>
+                </li>
+                <li>
+                  <a href="https://www.ipac.caltech.edu/page/privacy">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+            <div class='span8'>
+              <div class='affiliates right'>
+                <a alt="NASA Exoplanet Science Institute" title="NASA Exoplanet Science Institute" href="https://nexsci.caltech.edu/"><img src="../images/icon_nexsci.png" /></a>
+                <a alt="Infrared Processing and Analysis Center" title="Infrared Processing and Analysis Center" href="https://www.ipac.caltech.edu"><img src="../images/icon_ipac.png" /></a>
+                <a alt="California Institute of Technology" title="California Institute of Technology" href="https://www.caltech.edu"><img src="../images/icon_caltech.png" /></a>
+                <a alt="Jet Propulsion Laboratory" title="Jet Propulsion Laboratory" href="https://www.jpl.nasa.gov"><img src="../images/icon_jpl.png" /></a>
+                <a alt="National Aeronautics and Space Administration" title="National Aeronautics and Space Administration" href="https://www.nasa.gov"><img src="../images/icon_nasa.png" /></a>
+              </div>
+            </div>
+            <div class='span10 offset1 center disclaimer'>
+              <p>
+                The NASA Exoplanet Science Institute is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
