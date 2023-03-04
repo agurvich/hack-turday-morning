@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FIRE Studio
-img: output.png
+img: firestudio.png
 tags: [dataviz,software]
 ---
 
