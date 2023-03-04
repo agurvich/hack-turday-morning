@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/saturday-morning-hacks/conference-on-javascript/</loc>
-<lastmod>2017-09-09T16:00:00-05:00</lastmod>
+<loc>/saturday-morning-hacks/wind-chimes/</loc>
+<lastmod>2019-01-01T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>/saturday-morning-hacks/FIRE-studio/</loc>
+<lastmod>2022-08-20T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/saturday-morning-hacks/firefly/</loc>
+<lastmod>2022-09-30T16:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/saturday-morning-hacks/firefly-gaia-dr3/</loc>
+<lastmod>2022-12-31T15:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>/saturday-morning-hacks/national-fellowships/</loc>
+<lastmod>2023-01-31T15:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>/saturday-morning-hacks/</loc>

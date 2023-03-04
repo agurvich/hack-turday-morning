@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Exploring Gaia DR3 with Firefly - Alex Gurvich - data scientist</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Alex Gurvich - data scientist" property="og:site_name">
+  
+    <meta content="Exploring Gaia DR3 with Firefly" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes." property="og:description">
+  
+  
+    <meta content="/firefly-gaia-dr3/" property="og:url">
+  
+  
+    <meta content="2022-12-31T15:00:00-06:00" property="article:published_time">
+    <meta content="/about/" property="article:author">
+  
+  
+    <meta content="/saturday-morning-hacks/assets/img/firefly/gaia_lane.png" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="dataviz" property="article:tag">
+    
+    <meta content="astronomy" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@alexbgurvich">
+  
+    <meta name="twitter:title" content="Exploring Gaia DR3 with Firefly">
+  
+  
+    <meta name="twitter:url" content="/firefly-gaia-dr3/">
+  
+  
+    <meta name="twitter:description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+  
+  
+    <meta name="twitter:image:src" content="/saturday-morning-hacks/assets/img/firefly/gaia_lane.png">
+  
+
+	<meta name="description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/saturday-morning-hacks/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/saturday-morning-hacks/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/saturday-morning-hacks/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/saturday-morning-hacks/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/saturday-morning-hacks/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/saturday-morning-hacks/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/saturday-morning-hacks/"><img src="/saturday-morning-hacks/assets/img/alex-gurvich.png" alt="Alex Gurvich"></a>
+      </div>
+      <div class="author-name">Alex Gurvich</div>
+      <p>Former astrophysicist turned data scientist.  I like to tell stories and visualize data. 
+</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/alexbgurvich" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+        
+          <li class="github"><a href="http://github.com/agurvich" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/alex-b-gurvich" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+          <li class="email"><a href="mailto:alex.b.gurvich@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2023 &copy; Alex Gurvich</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/saturday-morning-hacks/assets/img/firefly/gaia_lane.png alt="Exploring Gaia DR3 with Firefly">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">Exploring Gaia DR3 with Firefly</h1>
+        <div class="page-date"><span>2022, Dec 31&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>FIRE Studio was inspired by a student I worked with who took a screenshot of figure from a paper and put it on their poster because they wanted a pretty image of a simulation they were studying. 
+I thought to myself, this isn’t right. 
+The power to visualize images should belong to everyone and so I set out to write a convenient and sensible API for making publication quality images that you could plot stuff on top of. 
+Thus, FIRE Studio was born. 
+FIRE Studio is named as such because I love movies (science ones but also like, actual movies) and I wanted users to feel like they were in the editing booth turning knobs to make the most fantastic version of their figure/movie (now I mean the science kind) they could.
+There are cameras, and “productions” (pre-built visualization scripts that people can riff off of) and utilities for time interpolating data using a novel slope-limiting scheme to avoid spurious artifacts when making high framerate movies (thanks Phil for the inspiration!).</p>
+
+<p>FIRE Studio has a couple of different “modes” (or studios, as I call them).
+Users can make column density projections, “two color” projections where the hue is set by one quantity like temperature and the brightness is set by another like density, “three color” projections where different quantities (usually mass in different temperature bins) are projected and colormapped independently and then the R, G, and B channels are blended, and luminosity + dust attenuation maps (mock Hubble images).
+Each of these modes shares a common underlying API for setting up the image and can easily be plotted in matplotlib axis objects so you can compose or plot ontop of them.</p>
+
+<p>More information, tutorials, and the code itself can be found <a href="alexbgurvi.ch/FIRE_studio">on it’s homepage</a>.</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=Exploring Gaia DR3 with Firefly&url=/firefly-gaia-dr3/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=/firefly-gaia-dr3/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/saturday-morning-hacks/tags#dataviz" class="tag">&#35; dataviz</a>
+          
+            <a href="/saturday-morning-hacks/tags#astronomy" class="tag">&#35; astronomy</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>

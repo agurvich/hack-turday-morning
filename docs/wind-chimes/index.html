@@ -2,46 +2,57 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Alex Gurvich - data scientist</title>
+	<title>GPU accelerated chemistry - Alex Gurvich - data scientist</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Alex Gurvich - data scientist" property="og:site_name">
   
-    <meta content="Alex Gurvich - data scientist" property="og:title">
+    <meta content="GPU accelerated chemistry" property="og:title">
   
   
-    <meta content="website" property="og:type">
+    <meta content="article" property="og:type">
   
   
     <meta content="Part homepage, part blog, all data science and visualization.
 " property="og:description">
   
   
-    <meta content="/" property="og:url">
+    <meta content="/wind-chimes/" property="og:url">
   
   
+    <meta content="2019-01-01T00:00:00-06:00" property="article:published_time">
+    <meta content="/about/" property="article:author">
   
-    <meta content="/saturday-morning-hacks/assets/img/alex-gurvich.png" property="og:image">
+  
+    <meta content="/saturday-morning-hacks/assets/img/chimes_network.png" property="og:image">
   
   
+    
+  
+  
+    
+    <meta content="software" property="article:tag">
+    
+    <meta content="astronomy" property="article:tag">
+    
   
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@alexbgurvich">
   
-    <meta name="twitter:title" content="Alex Gurvich - data scientist">
+    <meta name="twitter:title" content="GPU accelerated chemistry">
   
   
-    <meta name="twitter:url" content="/">
+    <meta name="twitter:url" content="/wind-chimes/">
   
   
     <meta name="twitter:description" content="Part homepage, part blog, all data science and visualization.
 ">
   
   
-    <meta name="twitter:image:src" content="/saturday-morning-hacks/assets/img/alex-gurvich.png">
+    <meta name="twitter:image:src" content="/saturday-morning-hacks/assets/img/chimes_network.png">
   
 
 	<meta name="description" content="">
@@ -105,79 +116,45 @@
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
-  
-<article class="post">
-  
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/saturday-morning-hacks/national-fellowships/">National fellowships</a></h2>
-    <p>FIRE Studio was inspired by a student I worked with who took a screenshot of...</p>
-    <span class="post-date">2023, Jan 31&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">2 minute read</span>
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/saturday-morning-hacks/assets/img/chimes_network.png alt="GPU accelerated chemistry">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">GPU accelerated chemistry</h1>
+        <div class="page-date"><span>2019, Jan 01&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>As a 2018-2019 Blue Waters Graduate Fellow I developed a GPU accelerated version of the non-equilibrium chemistry solver CHIMES, developed by Dr. Alex Richings– a former postdoc in the Northwestern Galaxy Formation group. CHIMES was recently coupled to the FIRE simulation code and when enabled can dominate up to 95% of the computational time, making it prohibitively expensive to use in already expensive high-resolution studies. However, by offloading the chemistry calculation and integrating the equations on a GPU we will be able to bring the non-equilibrium chemistry in line with the rest of the cost of the simulation allowing us to run at the high resolutions we require for our science cases. To that end, I created WIND, a CUDA application that integrates general coupled stiff ODES. The next step is to apply WIND to the CHIMES chemical network and integrate it into the FIRE simulations.</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=GPU accelerated chemistry&url=/wind-chimes/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=/wind-chimes/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/saturday-morning-hacks/tags#software" class="tag">&#35; software</a>
+          
+            <a href="/saturday-morning-hacks/tags#astronomy" class="tag">&#35; astronomy</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
   </div>
-</article>
+</section> <!-- End Comment Area -->
 
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/saturday-morning-hacks/assets/img/firefly/gaia_lane.png)" href="/saturday-morning-hacks/firefly-gaia-dr3/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/saturday-morning-hacks/firefly-gaia-dr3/">Exploring Gaia DR3 with Firefly</a></h2>
-    <p>FIRE Studio was inspired by a student I worked with who took a screenshot of...</p>
-    <span class="post-date">2022, Dec 31&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">2 minute read</span>
-  </div>
-</article>
-
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/saturday-morning-hacks/assets/img/four_view_banner.png)" href="/saturday-morning-hacks/firefly/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/saturday-morning-hacks/firefly/">Firefly: an interactive dataviz software</a></h2>
-    <p>Firefly is a browser-based 3D interactive data visualization software for particle-like data. I co-created it...</p>
-    <span class="post-date">2022, Sep 30&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">2 minute read</span>
-  </div>
-</article>
-
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/saturday-morning-hacks/assets/img/output.png)" href="/saturday-morning-hacks/FIRE-studio/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/saturday-morning-hacks/FIRE-studio/">FIRE Studio</a></h2>
-    <p>FIRE Studio was inspired by a student I worked with who took a screenshot of...</p>
-    <span class="post-date">2022, Aug 20&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">2 minute read</span>
-  </div>
-</article>
-
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/saturday-morning-hacks/assets/img/chimes_network.png)" href="/saturday-morning-hacks/wind-chimes/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/saturday-morning-hacks/wind-chimes/">GPU accelerated chemistry</a></h2>
-    <p>As a 2018-2019 Blue Waters Graduate Fellow I developed a GPU accelerated version of the...</p>
-    <span class="post-date">2019, Jan 01&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">1 minute read</span>
-  </div>
-</article>
-
-
-<div class="container">
-  <nav class="pagination" role="pagination">
-    <ul>
-      
-
-      
-      
-      
-    </ul>
-  </nav>
-</div>
-
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
 
 </div>
   </div>
